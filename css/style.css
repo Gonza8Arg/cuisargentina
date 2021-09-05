@@ -113,6 +113,19 @@ ol {
   Helper CSS
 -----------------------*/
 
+.cursos-section {
+	background: #fff;
+	padding-top: 50px;
+}
+
+.cursos-section .section-title h2 {
+	color: #403c3c;
+}
+
+.cursos-section .section-title p {
+	color: #403c3c;
+}
+
 .separacion-subtitulo {
 	margin-top: 20px;
 }
@@ -123,7 +136,7 @@ ol {
 }
 
 .section-title span {
-	color: #48b75a;
+	color: #48b75a
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1776,6 +1789,10 @@ ol {
 	.slicknav_nav {
 		background: #666;
 		display: block;
+		/*Edit*/
+		margin-left: -15px;
+		margin-right: -15px;
+		/*Edit*/
 	}
 	.slicknav_menu {
 		display: block;
