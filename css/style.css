@@ -113,19 +113,6 @@ ol {
   Helper CSS
 -----------------------*/
 
-.cursos-section {
-	background: #fff;
-	padding-top: 50px;
-}
-
-.cursos-section .section-title h2 {
-	color: #403c3c;
-}
-
-.cursos-section .section-title p {
-	color: #403c3c;
-}
-
 .separacion-subtitulo {
 	margin-top: 20px;
 }
@@ -133,6 +120,7 @@ ol {
 .section-title {
 	text-align: center;
 	margin-bottom: 60px;
+	color: #fff;
 }
 
 .section-title span {
@@ -490,10 +478,11 @@ ol {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	margin-bottom: 30px;
+	border-bottom: 3px solid #48b75a;
 }
 
 .service-item:hover {
-	border-bottom: 3px solid #48b75a;
+	border-bottom: 3px solid #fff;
 }
 
 .service-item h4 {
